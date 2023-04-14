@@ -13,15 +13,15 @@ html, body {
 }
 
 body {
-    background: url(../imagens/fundo-madeira.jpg) center center no-repeat fixed;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat 
+    top center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 main {
-    height: 100vh;
     position: relative;
-    
+    height: 100vh;
 }
 
 section#telefone {
@@ -30,12 +30,16 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
     
-    height: 625px;
+    height: 627px;
     width: 311px;
-    background: url(../imagens/frame-iphone2.png) no-repeat ;
+    background: url(../imagens/frame-iphone.png) no-repeat;
+    background-size: cover;
 }
 
-iframe {
-    height: 720px;
-    width: 400px;
+iframe#tela {
+    position: relative;
+    top: 79px;
+    left: 20px;
+    width: 270px;
+    height: 475px;
 }
